@@ -1,5 +1,6 @@
 *** Settings ***
 Documentation    Azioni e verifiche della pagina del carrello SauceDemo.
+Library          Browser
 
 *** Keywords ***
 Open Cart Page

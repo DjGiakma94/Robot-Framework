@@ -1,5 +1,6 @@
 *** Settings ***
 Documentation    Azioni e verifiche della pagina dei prodotti SauceDemo.
+Library          Browser
 
 *** Keywords ***
 Add Product To Cart

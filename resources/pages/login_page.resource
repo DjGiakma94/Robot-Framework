@@ -1,5 +1,7 @@
 *** Settings ***
 Documentation    Azioni e verifiche della pagina di accesso SauceDemo.
+Library          Browser
+Resource         ../common/browser.resource
 
 *** Keywords ***
 Open SauceDemo Login Page
