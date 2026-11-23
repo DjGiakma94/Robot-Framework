@@ -1,0 +1,14 @@
+*** Settings ***
+Documentation    Azioni e verifiche della pagina di accesso SauceDemo.
+
+*** Keywords ***
+Open SauceDemo Login Page
+    Start Browser Session
+    Open Browser Page    ${URL}
+
+Login With Credentials
+    [Arguments]    ${username}    ${password}
+    Fill Text    id=user-name    ${username}
+    Fill Text    id=password    ${password}
+    Click    id=login-button
+    Get Text    span.title    ==    Products

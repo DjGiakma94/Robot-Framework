@@ -1,1 +1,2 @@
 output-dir = "results/latest"
+paths = ["tests"]
