@@ -2,6 +2,7 @@
 Documentation    Azioni e verifiche della pagina di accesso SauceDemo.
 Library          Browser
 Resource         ../common/browser.resource
+Variables        ../../env_variables.py
 
 *** Keywords ***
 Open SauceDemo Login Page

@@ -1,7 +1,6 @@
 *** Settings ***
 Documentation    Test E2E per il flusso di acquisto su SauceDemo.
 Resource         ../resources/saucedemo.resource
-Variables        ../env_variables.py
 Test Setup       Open SauceDemo Login Page
 Test Teardown    Close Browser Session
 
